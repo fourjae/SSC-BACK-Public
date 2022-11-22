@@ -20,16 +20,6 @@ Front-End : React.js(redux 등)
 
 [3.1] 회원가입과 로그인  
 
-
-
-
-
-
-
-
-
-
-
 <img width="1199" alt="스크린샷 2022-03-23 오후 2 07 06" src="https://user-images.githubusercontent.com/47708717/159656531-c4532da3-5fed-45cf-b34f-e4968cb2f905.png">
 
 [3.2] 워게임 정보  
@@ -39,7 +29,8 @@ Front-End : React.js(redux 등)
 
 [3.3] 랭킹 정보  
 
-<img width="839" alt="스크린샷 2022-03-23 오후 2 47 49" src="https://user-images.githubusercontent.com/47708717/159656583-a3a33e44-04f9-4be8-999c-a65d2f1400c1.png">
+<!-- <img width="839" alt="스크린샷 2022-03-23 오후 2 47 49" src="https://user-images.githubusercontent.com/47708717/159656583-a3a33e44-04f9-4be8-999c-a65d2f1400c1.png"> -->
+현재 블라인드 면접 이슈로 가림처리 하였습니다.
 
 [3.4] 내 정보 
 
@@ -59,7 +50,8 @@ Front-End : React.js(redux 등)
 [3.7] 관리자 기능  
 
 
-<img width="839" alt="스크린샷 2022-03-23 오후 2 47 49" src="https://user-images.githubusercontent.com/47708717/159656804-29dbe1c4-7b9f-485f-9838-07111d9bdbf5.png">
+<!-- <img width="839" alt="스크린샷 2022-03-23 오후 2 47 49" src="https://user-images.githubusercontent.com/47708717/159656804-29dbe1c4-7b9f-485f-9838-07111d9bdbf5.png"> -->
+현재 블라인드 면접 이슈로 가림처리 하였습니다.
 
 [3.8] 관리자 기능2  
 
@@ -87,7 +79,7 @@ Back-End를 맡아 RestAPI 개발, DB설계, 로그인 등을 맡았습니다.
 
 - **협업**
     
-    Back-End 개발자 황영하와 Front-End 개발자 한 명으로 진행하였으며 협업에 큰 어려움이 없었음.
+    Back-End 개발자 황영하와 Front-End 개발자 한 명으로 진행하였으며 협업에 큰 어려움 없이 서로의 진행 상황을 공유하며 개발을 진행하였음.
     
 
 - **보안**
@@ -99,8 +91,10 @@ Back-End를 맡아 RestAPI 개발, DB설계, 로그인 등을 맡았습니다.
 
 - DB
     
-    문제를 풀고 점수를 얻는 RestAPI에서 경쟁 상태를 이용한 여러번 점수 얻기가 가능하였음. 
+    문제를 풀고 점수를 얻는 API에서 경쟁 상태를 이용한 여러번 점수 얻기가 가능하였음. 
     
-    비동기 처리과정에서 발생하는 문제 였으나 MySQL에서 중복체크를 위한 새로운 unique컬럼을 만든 후 
+    비동기 처리과정에서 발생하는 문제 였으나 서버로직상 해결할 수 없어 고민을 하다가 MySQL에서 중복체크를 위한 새로운 unique컬럼을 만든 후 
     
-    닉네임+문제명을 합쳐서 저장함으로써 중복접근을 해결
+    카디널리티가 높고 선택도를 1로 만드는 방법을 고민하였음. 
+    
+    중복되지 않는 닉네임 + 1문제당 1번만 풀이 가능한 문제명을 합쳐서 unique 값으로 저장함으로써 중복접근을 해결
