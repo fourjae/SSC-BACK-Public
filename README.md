@@ -24,21 +24,17 @@ Front-End : React.js(redux 등)
 
 [3.2] 워게임 정보  
 
-
 <img width="1113" alt="스크린샷 2022-03-23 오후 2 07 53" src="https://user-images.githubusercontent.com/47708717/159656545-6d523fc4-a5bb-43c5-aa33-a0392a2540b4.png">
 
 [3.3] 랭킹 정보  
 
-<!-- <img width="839" alt="스크린샷 2022-03-23 오후 2 47 49" src="https://user-images.githubusercontent.com/47708717/159656583-a3a33e44-04f9-4be8-999c-a65d2f1400c1.png"> -->
-현재 블라인드 면접 이슈로 가림처리 하였습니다.
+<img width="839" alt="스크린샷 2022-03-23 오후 2 47 49" src="https://user-images.githubusercontent.com/47708717/159656583-a3a33e44-04f9-4be8-999c-a65d2f1400c1.png">
 
 [3.4] 내 정보 
-
 
 <img width="1047" alt="스크린샷 2022-03-23 오후 2 10 19" src="https://user-images.githubusercontent.com/47708717/159656559-14dbefc4-8595-4ccb-8fe9-02337695336d.png">
 
 [3.5] 강의 목록  
-
 
 <img width="1302" alt="스크린샷 2022-03-23 오후 2 23 40" src="https://user-images.githubusercontent.com/47708717/159656634-02020531-1a1d-4814-b509-43557d4ca011.png">
 
@@ -49,9 +45,7 @@ Front-End : React.js(redux 등)
 
 [3.7] 관리자 기능  
 
-
-<!-- <img width="839" alt="스크린샷 2022-03-23 오후 2 47 49" src="https://user-images.githubusercontent.com/47708717/159656804-29dbe1c4-7b9f-485f-9838-07111d9bdbf5.png"> -->
-현재 블라인드 면접 이슈로 가림처리 하였습니다.
+<img width="839" alt="스크린샷 2022-03-23 오후 2 47 49" src="https://user-images.githubusercontent.com/47708717/159656804-29dbe1c4-7b9f-485f-9838-07111d9bdbf5.png">
 
 [3.8] 관리자 기능2  
 
